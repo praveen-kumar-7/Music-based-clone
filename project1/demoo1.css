@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding-left:100px;
+}
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    /* border:2px solid black; */
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+   
+}
+.container::after{
+    content: "";
+    border-top: 1px solid black;
+    width: 250px;
+    margin-left: 175px;
+    margin-top: 30px ;
+   
+}
+img{
+    position: relative;
+    width:60px;
+
+}
+.title1{
+    display: flex;
+    font-size: 25px;
+    position: relative;
+}
+.txt{
+    position: relative;
+    top:20px;
+   
+}
+.input{
+    margin-left:150px;
+}
+h5{
+    margin-top: 20px;
+    font-size: 15px;
+}
+.email{
+    border:1px solid black;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.password{
+    border:1px solid black;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.name{
+    border:1px solid black;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.date{
+    margin-top: 10px;
+    width:65%;
+    padding:10px 0 10px 60px;
+    border-radius: 10px;
+    border: 1px solid black;
+    align-content: center;
+    justify-content: center;
+}
+.gender{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    padding-top: 10px;
+    grid-gap:1rem;
+ 
+}
+
+.signup{
+    margin:40px 0 0 60px;
+    width: 100px;
+    border-radius: 50px;
+    padding:10px;
+}
+.signup:hover{
+    background-color: rgba(2, 55, 80, 0.829);
+    border-top-color: black;
+    border-color:2px solid black;
+    /* transition: all 0.1s ease-in-out;
+    width:110px;
+    height:50px; */
+    cursor: pointer;
+}
+.account{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.signin{
+    margin-top: 20px;
+    margin-left: 5px;
+    color: blue;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
