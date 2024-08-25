@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    flex-wrap: wrap;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background: black;
+}
+
+.nav {
+    color: white;
+}
+
+.txt {
+    position: relative;
+    bottom: 20px;
+}
+
+.logo {
+    display: inline;
+    width: 110px;
+    height: 75px;
+    position: relative;
+}
+
+
+.prawin {
+    display: block;
+}
+
+.title1 {
+    width: 100%;
+    font-size: 35px;
+}
+
+body {
+    background: rgba(2, 55, 80, 0.829);
+}
+
+.container {
+    color: white;
+
+}
+
+.heading {
+    margin: auto;
+    width: 300px;
+    margin-top: 50px;
+}
+
+.google {
+    text-decoration: dotted;
+    width: 20%;
+    height: 80%;
+    background-color: black;
+    border-radius: 100px;
+    margin-top: 100px;
+    margin-left: 37%;
+    padding: 15px 0px;
+}
+
+.facebook {
+    width: 20%;
+    height: 80%;
+    background-color: black;
+    border-radius: 100px;
+    margin: 15px 0px;
+    padding: 15px 0px;
+    margin-left: 37%;
+}
+
+.instagram {
+    width: 20%;
+    height: 80%;
+    padding: 15px 0px;
+    margin-left: 37%;
+    background-color: black;
+    border-radius: 100px;
+    margin-bottom: 30px;
+}
+
+i {
+    padding: 0 10px 0 10px;
+}
+
+.logo1 {
+    padding-top: 8px;
+    padding-left: 460px;
+    width: 160px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    opacity: 0.5px;
+}
+
+.container1 {
+    /* border: 2px solid black; */
+    /* display: inline-block; */
+    /* margin-left: 450px;
+    margin-top: 40px */
+    margin: auto;
+    /* align-items: center; */
+    justify-content: center;
+    display: flex;
+    /* border: 2px solid black; */
+    /* display: inline-block; */
+    /* margin-left: 300px; */
+    margin-top: 40px;
+    flex-direction: column;
+
+
+}
+
+.container1::before {
+    content: "";
+    border-top: 1px solid black;
+    /* border-top-color: black; */
+    display: block;
+    position: relative;
+    width: 300px;
+    margin: auto;
+}
+.type{
+    margin:auto;
+}
+.form {
+    margin-top: 50px;
+    color: white;
+    font-size: 15px;
+}
+
+.email {
+    margin-top: 15px;
+    background-color: black;
+    border: solid black;
+    border-radius: 100px;
+    padding: 8px 20px;
+    margin-bottom: 10px;
+
+
+}
+
+input[type='email'] {
+    background: none;
+    text-align: center;
+    color: white;
+}
+
+input[type='password'] {
+    background: none;
+    text-align: center;
+    color: white;
+}
+
+input[type='checkbox'] {
+    margin-top: 10px;
+    margin-left: 90px;
+    text-align: center;
+    color: white;
+}
+
+.password {
+    margin-top: 10px;
+    background-color: black;
+    border: solid black;
+    border-radius: 100px;
+    padding: 8px 20px;
+    margin-left: 5px;
+}
+
+.login {
+    border: solid black;
+    background-color: black;
+    color: white;
+    margin: 30px 80px;
+    border-radius: 50px;
+    padding: 8px 50px;
+    cursor: pointer;
+}
+
+.login:hover {
+    background-color: rgba(2, 55, 80, 0.829);
+    border-color: black;
+    /* width: 150px;
+   height: 40px; */
+}
+
+.forget {
+    margin:auto;
+}
+
+.account {
+    display: flex;
+    margin-top: 10px;
+    margin-left: -80px;
+}
+
+.account a {
+    font-size: 17px;
+    color: rgb(13, 13, 109);
+    text-decoration: dotted;
+}
